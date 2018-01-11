@@ -1,0 +1,112 @@
+#header {
+    position: relative;
+    top: 25px;
+    background-color: #000099;
+    color: white;
+    font-family: Lobster;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 75px;
+    padding: 5px;
+    margin-top:-35px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+form {
+    font-family: Verdana, Arial, sans-serif;
+    padding-top: 25px;
+}
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+    display: inline-block;
+}
+
+input {
+    font-family: Verdana, Arial, sans-serif;
+    color: grey;
+    font-size: 15px;
+    
+}
+
+.input{
+    width: 40%;
+}
+
+textarea {
+    vertical-align: top;
+    width: 40%;
+    height: 100px;
+    color: red;
+}
+
+#tot {
+    background-color: #000099;
+    color:white;
+    font-size: 1.5em;
+    
+}
+
+h4 {
+    position: relative;
+    top: 25px;
+}
+
+
+#wrapper {
+    border-left: 1px solid #000099;
+    border-right: 1px solid #000099;
+    border-bottom: 1px solid #000099;
+    position: relative;
+    top: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px 3px #000099;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: .8em;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#pmt {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#btn {
+    margin-right: 35%;
+    margin-left: 35%;
+    width: 15%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #000099;
+    color: white;
+}
+
+/*information*/
+
+.book {
+  padding: 10px;
+  margin: 10px;
+  text-indent: 2.5em;
+  background-color: #e8f9ff;
+}
+
+h3 {
+text-align: center;
+}
+
+nav {
+display: inline-flex;
+text-indent: 2em;
+float: right;
+padding-right: 20px;
+}
+
+#djinfo {
+display: inline-flex;
+text-indent: 6em;
+}
