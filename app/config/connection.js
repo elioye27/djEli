@@ -5,15 +5,8 @@
 // Dependencies
 var Sequelize = require("sequelize");
 
-var connection;
-if(process.env.JAWSDB_URL) {
-  //Heroku deployment
-    connection = mysql.createConnection(process.env.JAWSDB_URL);
-} else {
-  //local host
-
 // Creates mySQL connection using Sequelize
-var sequelize = new Sequelize("sequelize_djElibook", "root", "27Manlekey!", {
+var sequelize = new Sequelize("sequelize_djElibook", "root", "null", {
   host: "localhost",
   dialect: "mysql",
   pool: {
@@ -23,16 +16,5 @@ var sequelize = new Sequelize("sequelize_djElibook", "root", "27Manlekey!", {
   }
 });
 
-
-
-// Make connection.
-connection.connect(function(err) {
-  if (err) {
-    console.error("error connecting: " + err.stack);
-    return;
-  }
-  console.log("connected as id " + connection.threadId);
-});
-
 // // Export connection for the ORM to use.
-module.exports = connection;
+module.exports = sequelize;
